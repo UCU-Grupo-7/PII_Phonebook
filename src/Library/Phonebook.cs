@@ -31,5 +31,21 @@ namespace Library
 
             return result;
         }
+        public void AddContact(string name)
+        {
+            this.persons.Add(new Contact(name));   //tiene sentido segun creator que phonebook que contiene contactos tenga su creador
+        }  
     }
 }
+
+
+//hay que hacer seguro, agregar contacto
+//quitar contacto
+//enviar un mensaje a un contacto
+
+//phonebook tiene que tener una referencia a la libreria de whatsapp api csproj
+
+
+
+
+
