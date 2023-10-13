@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "4bAlR0ZSwywGrYLNGKdiURjTVSqQcKcQcv4p9YMIpHs1eSlPwQBK2EjQvgCNXw2WYEwmClf2uKasoF9ytkHUiw==",
+  "dgSpecHash": "0GJPxMsI5UJCEDNBwtJQxzkZgEwBa/5ReXhl8zEPPWH/taE2Mj2Upx6irtS9usmxlcEZJTLXLwUBRKVJhPA6ew==",
   "success": true,
-  "projectFilePath": "/home/luigi/Desktop/POO/PII_Phonebook/WhatsappApi/PII_WhatsAppApiUCU/src/Program/Program.csproj",
+  "projectFilePath": "/home/luigi/Desktop/POO/PII_Phonebook/PII_WhatsAppApi/src/Program/Program.csproj",
   "expectedPackageFiles": [
     "/home/luigi/.nuget/packages/microsoft.identitymodel.logging/1.1.2/microsoft.identitymodel.logging.1.1.2.nupkg.sha512",
     "/home/luigi/.nuget/packages/microsoft.identitymodel.tokens/5.1.2/microsoft.identitymodel.tokens.5.1.2.nupkg.sha512",

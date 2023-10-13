@@ -33,8 +33,8 @@ namespace WhatsAppApiUCU
 
             //accountSid = "ACa84013bd9cab881b4cf870d9aa762a3e";
             //authToken = "1078232165ded3e16a2065af7041ba8a";
-            accountSid = "ACa84013bd9cab881b4cf870d9aa762a3e";
-            authToken = "d7658b52096e1c783f1771dd847dc40b"; 
+            accountSid = "ACa1d6770d060aa0d20794c5f0b10273bb";
+            authToken = "6256ae84090f13df6c1d8798e80db053"; 
 		}
 
         public string Send(string to, string text)

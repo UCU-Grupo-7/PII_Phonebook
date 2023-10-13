@@ -5356,11 +5356,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/luigi/Desktop/POO/PII_Phonebook/WhatsappApi/PII_WhatsAppApiUCU/src/Program/Program.csproj",
+      "projectUniqueName": "/home/luigi/Desktop/POO/PII_Phonebook/PII_WhatsAppApi/src/Program/Program.csproj",
       "projectName": "Program",
-      "projectPath": "/home/luigi/Desktop/POO/PII_Phonebook/WhatsappApi/PII_WhatsAppApiUCU/src/Program/Program.csproj",
+      "projectPath": "/home/luigi/Desktop/POO/PII_Phonebook/PII_WhatsAppApi/src/Program/Program.csproj",
       "packagesPath": "/home/luigi/.nuget/packages/",
-      "outputPath": "/home/luigi/Desktop/POO/PII_Phonebook/WhatsappApi/PII_WhatsAppApiUCU/src/Program/obj/",
+      "outputPath": "/home/luigi/Desktop/POO/PII_Phonebook/PII_WhatsAppApi/src/Program/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/home/luigi/.nuget/NuGet/NuGet.Config"
@@ -5375,8 +5375,8 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "/home/luigi/Desktop/POO/PII_Phonebook/WhatsappApi/PII_WhatsAppApiUCU/src/Library/Library.csproj": {
-              "projectPath": "/home/luigi/Desktop/POO/PII_Phonebook/WhatsappApi/PII_WhatsAppApiUCU/src/Library/Library.csproj"
+            "/home/luigi/Desktop/POO/PII_Phonebook/PII_WhatsAppApi/src/Library/Library.csproj": {
+              "projectPath": "/home/luigi/Desktop/POO/PII_Phonebook/PII_WhatsAppApi/src/Library/Library.csproj"
             }
           }
         }

@@ -1,0 +1,12 @@
+/home/luigi/Desktop/POO/PII_Phonebook/PII_WhatsAppApi/src/Library/bin/Debug/net7.0/WhatsappApiUCU.deps.json
+/home/luigi/Desktop/POO/PII_Phonebook/PII_WhatsAppApi/src/Library/bin/Debug/net7.0/WhatsappApiUCU.dll
+/home/luigi/Desktop/POO/PII_Phonebook/PII_WhatsAppApi/src/Library/bin/Debug/net7.0/WhatsappApiUCU.pdb
+/home/luigi/Desktop/POO/PII_Phonebook/PII_WhatsAppApi/src/Library/obj/Debug/net7.0/Library.csproj.AssemblyReference.cache
+/home/luigi/Desktop/POO/PII_Phonebook/PII_WhatsAppApi/src/Library/obj/Debug/net7.0/Library.GeneratedMSBuildEditorConfig.editorconfig
+/home/luigi/Desktop/POO/PII_Phonebook/PII_WhatsAppApi/src/Library/obj/Debug/net7.0/Library.AssemblyInfoInputs.cache
+/home/luigi/Desktop/POO/PII_Phonebook/PII_WhatsAppApi/src/Library/obj/Debug/net7.0/Library.AssemblyInfo.cs
+/home/luigi/Desktop/POO/PII_Phonebook/PII_WhatsAppApi/src/Library/obj/Debug/net7.0/Library.csproj.CoreCompileInputs.cache
+/home/luigi/Desktop/POO/PII_Phonebook/PII_WhatsAppApi/src/Library/obj/Debug/net7.0/WhatsappApiUCU.dll
+/home/luigi/Desktop/POO/PII_Phonebook/PII_WhatsAppApi/src/Library/obj/Debug/net7.0/refint/WhatsappApiUCU.dll
+/home/luigi/Desktop/POO/PII_Phonebook/PII_WhatsAppApi/src/Library/obj/Debug/net7.0/WhatsappApiUCU.pdb
+/home/luigi/Desktop/POO/PII_Phonebook/PII_WhatsAppApi/src/Library/obj/Debug/net7.0/ref/WhatsappApiUCU.dll
