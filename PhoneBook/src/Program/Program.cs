@@ -19,13 +19,11 @@ namespace Program
             Phonebook phonebook = new Phonebook(contactOwner);
             // Agregar contactos a la lista
             Contact Nacho = new Contact("Nacho");
-            phonebook.CreateContact("Nano");
             phonebook.AddContact(Nacho);
             Nacho.Email = "asjknfnks@gmail.com";
             
             phonebook.PrintPhonebook();
             
-            phonebook.EditPhone("Nano", "123123");
 
             // Enviar un correo a algunos contactos
 
