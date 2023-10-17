@@ -10,9 +10,15 @@ public class WhatsAppChannel : IMessageChannel
     WhatsAppApi whatsApp = new WhatsAppApi();
     public void Send(Message message)
     {
-        string to = message.To;
-        string text = message.Text;
-        string m = whatsApp.Send(to, text);
+        string m = whatsApp.Send(message.To, message.Text);
     }
 
+    public Message CreateMessage(Contact contact)
+    {
+        WhatsAppMessage message = new WhatsAppMessage(contact);
+        //message.To = contact.Phone;
+        message.Text = "WhatsaApp Channel Message";
+
+        return message;
+    }
 }

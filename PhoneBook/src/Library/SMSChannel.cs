@@ -1,13 +1,13 @@
-namespace Library;
+/* namespace Library;
 public class SMSChannel : IMessageChannel
 {
     public void Send(Message message)
     {
 
     }
-
-    public Message CreateMessage(Contact from, Contact to)
+    public Message CreateMessage(Contact contact, Message message)
     {
-        return new SMSMessage(to);
+        string to = contact.Phone;
+        string text = message.Text;
     }
-}
+} */
