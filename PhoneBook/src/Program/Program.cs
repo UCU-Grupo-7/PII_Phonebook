@@ -24,10 +24,13 @@ namespace Program
             
             phonebook.PrintPhonebook();
             
-
+            Message message = new Message("you", "+59899017995");
+            message.Text = "Hello test 12";
             // Enviar un correo a algunos contactos
 
             // Enviar un WhatsApp a algunos contactos
+            WhatsAppChannel whatsAppChannel = new WhatsAppChannel();
+            whatsAppChannel.Send(message);
             /* var whatsApp = new WhatsAppApi();
             string sid = whatsApp.Send("+59894905570", "Hola Nano!. Estoy usando WhatsAppApiUcu");
             string sid1 = whatsApp.Send("+59899017995", "Hola Luis! Estoy usando WhatsAppApiUcu");
