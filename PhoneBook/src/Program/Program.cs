@@ -56,31 +56,39 @@ namespace Program
             Nacho.Email = "nacho@gmail.com";
 
 
+            WhatsAppChannel whatsAppChannel = new WhatsAppChannel();
 
-            var result = phonebook.Search(list);
+            //Message message1 = new Message("you", "+59899017995");
+            //message1.Text = "Hello test 12";
 
-            foreach (Contact per in result)
+            //var result = phonebook.Search(list);
+            phonebook.SendMessage(whatsAppChannel, list);
+
+            
+            
+            
+            //phonebook.PrintPhonebook();
+            
+            /* foreach (Contact per in result)
             {
                 Console.WriteLine(per.Name);
                 Console.WriteLine(per.Phone);
                 Console.WriteLine(per.Email);
                 
-            }
+            } */
 
             // Agregar contactos a la lista
 /*             Contact Nacho = new Contact("Nacho");
             phonebook.AddContact(Nacho);
             Nacho.Email = "asjknfnks@gmail.com"; */
             
-            phonebook.PrintPhonebook();
             
-            Message message = new Message("you", "+59899017995");
-            message.Text = "Hello test 12";
+            
             // Enviar un correo a algunos contactos
 
             // Enviar un WhatsApp a algunos contactos
-            WhatsAppChannel whatsAppChannel = new WhatsAppChannel();
-            whatsAppChannel.Send(message);
+            //WhatsAppChannel whatsAppChannel = new WhatsAppChannel();
+            //whatsAppChannel.Send(message);
             /* var whatsApp = new WhatsAppApi();
             string sid = whatsApp.Send("+59894905570", "Hola Nano!. Estoy usando WhatsAppApiUcu");
             string sid1 = whatsApp.Send("+59899017995", "Hola Luis! Estoy usando WhatsAppApiUcu");
