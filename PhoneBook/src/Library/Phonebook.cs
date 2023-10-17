@@ -53,9 +53,16 @@ namespace Library
                 Console.WriteLine(persons[i].Name);
             }
         }
-        public void SendMessage (IMessageChannel channel, Message message)
+        public void SendMessage (IMessageChannel channel, Message message, string[] names)
         {
+            var result = Search(names);
+            foreach (Contanct contanct in result)
+            {
+                Message message = new Message(from, to);
+                channel.Send(result.Phone, message);
+                
+            }
 
-        }
+        } 
     }
 }
