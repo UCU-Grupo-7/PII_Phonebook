@@ -20,7 +20,7 @@ whatsApp.Send("+598<Poné tu teléfono acá>", "Hey! I'm using WhatsApp");
 
 - Agregar a WhatsApp el siguiente contacto: +14155238886
 
-- Enviar al nuevo contacto (+14155238886) el siguiente mensaje: `join poetry-naturally`
+- Enviar al nuevo contacto (+14155238886) el siguiente mensaje: `join please-fifty`
 
 :warning: Estamos usando una cuenta gratuita de Twilio que permite enviar una cantidad limitada de mensajes. Por favor usa esta funcionalidad con discreción y sólo para los ejercicios del curso.
 
