@@ -1,13 +1,15 @@
-/* namespace Library;
+using System;
+namespace Library;
 public class SMSChannel : IMessageChannel
 {
     public void Send(Message message)
     {
-
+        Console.WriteLine($"SMS Sent to: {message.To}");
     }
-    public Message CreateMessage(Contact contact, Message message)
+    public Message CreateMessage(Contact contact, string text)
     {
-        string to = contact.Phone;
-        string text = message.Text;
+        SMSMessage message = new SMSMessage(contact);
+        message.Text = text;
+        return message;
     }
-} */
+}

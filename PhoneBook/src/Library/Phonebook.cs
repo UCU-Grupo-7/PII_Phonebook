@@ -33,11 +33,6 @@ namespace Library
 
             return result;
         }
-        public void Send (Contact contact, Message message)
-        {
-
-        }
-
         public void AddContact (Contact contact)
         {
             this.persons.Add(contact);
@@ -53,12 +48,12 @@ namespace Library
                 Console.WriteLine(persons[i].Name);
             }
         }
-        public void SendMessage (IMessageChannel channel, string[] names)
+        public void SendMessage (IMessageChannel channel, string[] names, string text)
         {
             var result = Search(names);
             foreach (Contact contact in result)
             {
-                Message sendMessage = channel.CreateMessage(contact);
+                Message sendMessage = channel.CreateMessage(contact, text);
                 channel.Send(sendMessage);
             }
         } 

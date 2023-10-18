@@ -5333,19 +5333,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\nanos\\.nuget\\packages\\": {}
+    "/home/luigi/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\nanos\\Desktop\\Prog 2 2023\\PII_Phonebook_Start\\PII_Phonebook\\PII_WhatsAppApi\\src\\Library\\Library.csproj",
+      "projectUniqueName": "/home/luigi/Desktop/POO/PII_Phonebook/PII_WhatsAppApi/src/Library/Library.csproj",
       "projectName": "WhatsappApiUCU",
-      "projectPath": "C:\\Users\\nanos\\Desktop\\Prog 2 2023\\PII_Phonebook_Start\\PII_Phonebook\\PII_WhatsAppApi\\src\\Library\\Library.csproj",
-      "packagesPath": "C:\\Users\\nanos\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\nanos\\Desktop\\Prog 2 2023\\PII_Phonebook_Start\\PII_Phonebook\\PII_WhatsAppApi\\src\\Library\\obj\\",
+      "projectPath": "/home/luigi/Desktop/POO/PII_Phonebook/PII_WhatsAppApi/src/Library/Library.csproj",
+      "packagesPath": "/home/luigi/.nuget/packages/",
+      "outputPath": "/home/luigi/Desktop/POO/PII_Phonebook/PII_WhatsAppApi/src/Library/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\nanos\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "/home/luigi/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net7.0"
@@ -5398,7 +5398,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.402\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/7.0.112/RuntimeIdentifierGraph.json"
       }
     }
   }

@@ -1,20 +1,16 @@
-/* namespace Library;
+using System;
+namespace Library;
 public class EmailChannel : IMessageChannel
 {
-    public EmailChannel()
-    {
-
-    }
     public void Send(Message message)
     {
-        string to = contact.Email;
-        string text = message.Text;
-        
+        Console.WriteLine($"Email Sent to: {message.To}");
     }
-    public Message CreateMessage(Contact contact, Message message)
+    public Message CreateMessage(Contact contact, string text)
     {
-        string to = contact.Email;
-        string text = message.Text;
+        EmailMessage message = new EmailMessage(contact);
+        message.Text = text;
+        return message;
     }
 
-} */
+}

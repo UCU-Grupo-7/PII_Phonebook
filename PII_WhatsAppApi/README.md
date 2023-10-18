@@ -24,4 +24,9 @@ whatsApp.Send("+598<Poné tu teléfono acá>", "Hey! I'm using WhatsApp");
 
 :warning: Estamos usando una cuenta gratuita de Twilio que permite enviar una cantidad limitada de mensajes. Por favor usa esta funcionalidad con discreción y sólo para los ejercicios del curso.
 
+Twilio templates para envio de mensajes:
+    Appointment Reminders: "Your appointment is coming up on {{1}} at {{2}}"
+    Order Notifications: "Your {{1}} order of {{2}} has shipped and should be delivered on {{3}}. Details: {{4}}"
+    Verification Codes: "Your {{1}} code is {{2}}"
+
 > Los repositorios que usan esta librería asumen que fueron descargados en la misma carpeta 'madre'.

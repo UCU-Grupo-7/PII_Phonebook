@@ -4,6 +4,6 @@ namespace Library
     {
          void Send(Message message);
 
-         Message CreateMessage(Contact contact);
+         Message CreateMessage(Contact contact, string text);
     }
 }
